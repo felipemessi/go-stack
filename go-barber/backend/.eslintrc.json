@@ -26,7 +26,11 @@
           "ts": "never"
         }
       ],
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "@typescript-eslint/camelcase": "off",
+      "@typescript-eslint/no-unused0vars": ["error", {
+        "argsIgnorePattern": "_"
+      }]
     },
 
     "settings": {
