@@ -26,11 +26,16 @@
     ],
     "rules": {
       "no-use-before-define": "off",
+      "no-unused-vars": "warn",
+      "@typescript-eslint/no-empty-function": "warn",
+      "no-restricted-globals":"off",
       "@typescript-eslint/no-use-before-define": ["error"],
+      "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "react/jsx-one-expression-per-line": "off",
+      "react/jsx-props-no-spreading":"off",
+      "react/prop-types":"off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
-      "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "import/prefer-default-export": "off",
       "@typescript-eslint/explicit-function-return-type": [
         "error",
