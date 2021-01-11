@@ -26,11 +26,20 @@
           "ts": "never"
         }
       ],
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          "selector": "interface",
+          "prefix": ["I"],
+          "format": ["PascalCase"]
+        }
+      ],
+      "camelcase": "off",
       "prettier/prettier": "error",
       "@typescript-eslint/camelcase": "off",
-      "@typescript-eslint/no-unused0vars": ["error", {
-        "argsIgnorePattern": "_"
-      }]
+      "@typescript-eslint/no-unused-vars": "off",
+      "no-useless-constructor": "off",
+      "class-methods-use-this":"off"
     },
 
     "settings": {
