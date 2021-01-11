@@ -29,11 +29,11 @@ export const Content = styled.div`
 const appearFromleft = keyframes`
   from {
     opacity: 0;
-    transfor: translateX(-50px);
+    transform: translateX(-50px);
   }
   to {
     opacity: 1;
-    transfor: translateX(0);
+    transform: translateX(0);
   }
 `;
 
