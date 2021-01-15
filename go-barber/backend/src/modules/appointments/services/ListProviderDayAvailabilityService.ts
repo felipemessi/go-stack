@@ -5,9 +5,9 @@ import IAppointmentsRepository from '@modules/appointments/repositories/IAppoint
 
 interface IRequest {
   provider_id: string;
+  day: number;
   month: number;
   year: number;
-  day: number;
 }
 
 type IResponse = Array<{
