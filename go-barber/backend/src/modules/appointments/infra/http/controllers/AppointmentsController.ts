@@ -19,7 +19,6 @@ export default class AppointmentsController {
       user_id,
     });
 
-    console.log(appointment);
     return response.json(appointment);
   }
 }
