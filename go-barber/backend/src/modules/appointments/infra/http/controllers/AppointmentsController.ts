@@ -18,7 +18,6 @@ export default class AppointmentsController {
       provider_id,
       user_id,
     });
-    console.log();
 
     return response.json(appointment);
   }
